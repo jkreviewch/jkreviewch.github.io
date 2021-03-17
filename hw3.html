@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+<h1>Hot IT News</h2>
+
+<div class="row">
+   <div class="column" style="background-color:rgb(255, 255, 255);">
+    <h2>Tesla hikesthe prices on 4 electric vehicles, including the Model S Plaid Plus, which now costs $150,000</h2>
+    <p>Tesla has pushed up the price of its Model S Plaid Plus by $10,000.</p>
+    <p>The sedan is now priced at $149,990 on Tesla's website.</p>
+    <p>The electric automaker also raised the prices of some Model 3 and Model Y vehicles, too, partially reversing a series of price cuts made in February.    </p>
+    
+  </div>
+  <div class="column" style="background-color:rgb(255, 255, 255);">
+    <h2>Tesla hikesthe prices on 4 electric vehicles, including the Model S Plaid Plus, which now costs $150,000</h2>
+    <p>Tesla has pushed up the price of its Model S Plaid Plus by $10,000.</p>
+    <p>The sedan is now priced at $149,990 on Tesla's website.</p>
+    <p>The electric automaker also raised the prices of some Model 3 and Model Y vehicles, too, partially reversing a series of price cuts made in February.    </p>
+  </div>
+</div>
+
+</body>
+</html>
+
